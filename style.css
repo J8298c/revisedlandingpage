@@ -1,0 +1,138 @@
+/*
+Theme Name: Test_Landing
+Theme URI: https://www.milsuite.mil
+Author: the milTech Team
+Author URI: https://www.milsuite.mil
+Description: Landing Page for milUnviersity
+Version: 1.0
+License: GNU
+Text Domain: landingpage
+Tags: Landingpage bootstrap jumbotron navbar navpills centered full image
+ */
+.landingpage{
+     background: linear-gradient(0deg,rgba(76, 49, 87, 0.9),rgba(76, 49, 87, 0.9)), url('./images/landing.jpg');
+     width: 100%;
+     height: 900px;
+     background-position: center;
+     background-repeat: no-repeat;
+     color: #E4EBF1;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-custom{
+    font-size: 20px;
+}
+.navbar-header{
+    padding: 7px 15px;
+     margin-top: 0px
+}
+a.navbar-brand {
+    font-size: 20px;
+}
+.navbar-brand:hover{
+    color: #996699;
+}
+
+.navbar-default .navbar-brand {
+    color: #E4EBF1;
+}
+span.glyphicon.glyphicon-education {
+    font-size: 28px;
+    /* margin-left: 1px; */
+    margin-right: 16px;
+}
+.navbar-nav>li>a {
+    padding-top: 19px;
+    padding-bottom: 0px;
+    margin-top:14px;
+}
+div#bs-example-navbar-collapse-1 {
+    padding: 0px;
+    background-color: #223; 
+    width: 100%;
+    /* text-align: center; */
+}
+div#bs-example-navbar-collapse-1 a {
+    color: #E4EBF1;
+}
+div#bs-example-navbar-collapse-1 a:hover {
+    color: #996699;
+    background-color: transparent;
+}
+div#bs-example-navbar-collapse-1 a:focus {
+    background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #996699;
+    background-color: transparent;
+    border-bottom-color: #333333;
+}
+.btn-group-justified {
+    display: table;
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: separate;
+    margin: 22% auto;
+}
+.milbuttons {
+    background-color: #333333;
+    border-color: #996699;
+    color: #e4ebf1;
+}
+.milbuttons:hover{
+    background-color: #996699;
+    border-color: #333333;
+    border: 2px solid;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+     border-bottom: none;
+    text-align: center;
+}
+.page-header small {
+    margin-left: 282px;
+}
+.container-fluid {
+     padding-right: 0; 
+     padding-left: 0; 
+     margin-right: 0; 
+     margin-left: 0; 
+}
+.homeicon:hover{
+    color: #996699;
+}
+.homeicon:focus{
+    color: #996699;
+}
+
+/*
+Page styles
+*/
+.page-container{
+   background: linear-gradient(0deg,rgba(76, 49, 87, 0.9),rgba(76, 49, 87, 0.9)), url('./images/airbornelanding.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 900px;
+}
+.landing-page-jumbo {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 118px;
+    color: #e4ebf1;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.page-btns{
+    margin-top: 10px;
+}
+.landing-page-jumbo a{
+    color: #996699;
+    text-decoration: none;
+}
